@@ -6,7 +6,7 @@ import { useState } from "react";
 import "Styles/App.css";
 import "Styles/theme.css";
 import Navbar from "Components/Navbar/Navbar";
-import Home from "Components/Home/Home";
+import HomePage from "Pages/Home/HomePage";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className={`app bg-primary-${theme}`}>
       <Navbar theme={theme} />
-      <Home
+      <HomePage
         theme={theme}
         handleChangeTheme={handleChangeTheme}
       />
