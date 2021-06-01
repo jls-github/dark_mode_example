@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-text {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.navbar-dark {
+  background-color: black;
+  border-bottom: 2px solid darkgrey;
+}
+
+.navbar-light {
+  background-color: lightblue;
+  border-bottom: 2px solid black;
+}
+
+.navbar-text-light {
+    color: black;
+}
+
+.navbar-text-dark {
+    color: white;
+}

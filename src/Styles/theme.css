@@ -1,0 +1,40 @@
+/* 
+One option is to keep all theme styles in one file 
+You can also put theme data in individual style files
+*/
+
+/* Dark Mode */
+
+.text-primary-dark {
+  color: black;
+}
+
+.text-secondary-dark {
+  color: white;
+}
+
+.bg-primary-dark {
+  background-color: darkgrey;
+}
+
+.bg-secondary-dark {
+  background-color: darkslategray;
+}
+
+/* Light Mode */
+
+.text-primary-light {
+  color: black;
+}
+
+.text-secondary-light {
+  color: white;
+}
+
+.bg-primary-light {
+  background-color: white;
+}
+
+.bg-secondary-light {
+  background-color: blue;
+}
