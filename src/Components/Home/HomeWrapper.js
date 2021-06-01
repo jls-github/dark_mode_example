@@ -3,7 +3,8 @@ import React from "react";
 // I have decided to be more explicit in my naming for this example
 import "Styles/Home/Home.css";
 
-export default function Home({ children, theme }) {
+export default function HomeWrapper({ children, theme }) {
+
   return (
     <div className={`home bg-primary-${theme}`}>
       {children}

@@ -16,7 +16,7 @@ export default function HomeContentBoxContainer({theme}) {
     return function cleanUp() {
       clearTimeout(contentTimer);
     };
-  }, [setContent, dummyContent]);
+  }, [setContent]);
 
   return (
     <div>
