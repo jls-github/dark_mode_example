@@ -9,7 +9,10 @@ import { ThemeContext } from "Contexts/ThemeContext";
 
 export default function HomePage() {
   const { theme, handleChangeTheme } = useContext(ThemeContext);
-
+  // const value = useContext(ThemeContext)
+  // const theme = value.theme
+  // const handleChangeTheme = value.handleChangeTheme
+  
   return (
     <HomeWrapper>
       <HomeHeader theme={theme} />
